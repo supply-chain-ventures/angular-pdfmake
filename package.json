@@ -1,5 +1,5 @@
 {
-  "name": "angular-pdfmake",
+  "name": "@supply-chain-ventures.com/angular-pdfmake",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
@@ -49,5 +49,27 @@
     "tsickle": "^0.27.2",
     "tslint": "~5.9.1",
     "typescript": "~2.6.2"
-  }
+  },
+  "description": "An Angular 2+ component for printing and saving simple PDFs based on [bpampuch](https://github.com/bpampuch)'s \r [`pdfmake`](https://github.com/bpampuch/pdfmake) library.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supply-chain-ventures/angular-pdfmake.git"
+  },
+  "keywords": [
+    "angular2",
+    "pdfmake",
+    "angular",
+    "pdfmake",
+    "angular",
+    "pdf",
+    "html",
+    "to",
+    "pdf"
+  ],
+  "author": "Supply Chain Ventures",
+  "bugs": {
+    "url": "https://github.com/supply-chain-ventures/angular-pdfmake/issues"
+  },
+  "homepage": "https://github.com/supply-chain-ventures/angular-pdfmake#readme"
 }
