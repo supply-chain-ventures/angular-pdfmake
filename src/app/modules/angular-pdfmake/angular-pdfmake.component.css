@@ -1,0 +1,26 @@
+﻿.pdf-content {
+  border: 1px solid lightgrey;
+  margin: auto;
+  /* Force modern standards-compliant browsers to use "border-box"
+     to include padding in total page dimensions.
+  */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.page-a3 {
+  width: 29.7cm;
+}
+
+.page-a4 {
+  width: 21cm;
+}
+
+.page-letter {
+  width: 21.6cm;
+}
+
+.page-legal {
+  width: 21.6cm;
+}

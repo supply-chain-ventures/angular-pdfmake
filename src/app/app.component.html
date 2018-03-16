@@ -1,0 +1,27 @@
+﻿<button (click)="myPDF.print()">Print</button>
+<button (click)="myPDF.download('My PDF')">Save</button>
+
+
+<style>
+  .centered {
+    text-align: center;
+  }
+
+  .full-border {
+    border: 1px solid black;
+  }
+</style>
+
+<ng-pdfmake #myPDF [tableWidths]="300" pageSize="A4" [pageMargins]="[1, 1, 1, 1]">
+  <h1 class="centered">My PDF</h1>
+  <table>
+    <tr>
+      <th class="centered">Header 1</th>
+      <th class="centered">Header 2</th>
+    </tr>
+    <tr>
+      <td class="full-border">Cell content</td>
+      <td class="full-border">Cell content</td>
+    </tr>
+  </table>
+</ng-pdfmake>

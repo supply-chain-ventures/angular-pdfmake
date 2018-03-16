@@ -1,0 +1,5 @@
+﻿<p *ngIf="loadingData">Loading...</p>
+<div #pdfContent class="pdf-content"
+     [ngClass]="pageSizeClass" [ngStyle]="{ 'padding': pagePadding }">
+  <ng-content></ng-content>
+</div>
