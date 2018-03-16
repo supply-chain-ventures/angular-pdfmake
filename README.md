@@ -50,13 +50,13 @@ The following features are currently supported:
 Download and install into your Angular project using npm:
 
 ```bash
-npm install angular-pdfmake --save
+npm install @supply-chain-ventures.com/angular-pdfmake --save
 ```
 
 Load the `AngularPDFMakeModule` into your app's module or whichever module you wish to use it in:
 
 ```typescript
-import { AngularPDFMakeModule } from 'angular-pdfmake';
+import { AngularPDFMakeModule } from '@supply-chain-ventures.com/angular-pdfmake';
 
 @NgModule({
   ...
