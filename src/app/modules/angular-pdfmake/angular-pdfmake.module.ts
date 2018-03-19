@@ -8,10 +8,10 @@ import { AngularPDFMakeComponent } from './angular-pdfmake.component';
     CommonModule
   ],
   declarations: [
-    AngularPDFMakeComponent,
+    AngularPDFMakeComponent
   ],
   exports: [
-    AngularPDFMakeComponent,
+    AngularPDFMakeComponent
   ],
   providers: [],
   entryComponents: []

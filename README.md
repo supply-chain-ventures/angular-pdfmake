@@ -204,7 +204,7 @@ If a non-array value is passed, then all tables will be configured the same.
 #### Border layout
 
 By default, tables have full borders on all cells.
-Table can also have a predefined border layout, set with the `tableLayouts` input property.
+Tables can also have a predefined border layout, set with the `tableLayouts` input property.
 
 ```html
 <ng-pdfmake #myPDF tableLayouts="noBorders"> <!-- All tables have no borders -->
