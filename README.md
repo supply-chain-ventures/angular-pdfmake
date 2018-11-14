@@ -81,12 +81,12 @@ For now, this will only display a box with a "Hello, World!" on your browser:
 As you can see, you must project HTML elements into the `<ng-pdfmake>` tag.
 
 "Where's my PDF, though?!", you might be asking.
-For that, you must call the component's `print()` or `save()` methods.
+For that, you must call the component's `print()` or `download()` methods.
 We modify the template a tad by adding a couple of buttons and giving our component a hashtag reference:
 
 ```html
 <button (click)="myPDF.print()">Print</button>
-<button (click)="myPDF.save('My PDF')">Save</button>
+<button (click)="myPDF.download('My PDF')">Save</button>
 <ng-pdfmake #myPDF>
   <p>Hello, World!</p>
 </ng-pdfmake>
